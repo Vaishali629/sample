@@ -1,0 +1,239 @@
+---
+name: Obsidian Terminal
+colors:
+  surface: '#0b1326'
+  surface-dim: '#0b1326'
+  surface-bright: '#31394d'
+  surface-container-lowest: '#060e20'
+  surface-container-low: '#131b2e'
+  surface-container: '#171f33'
+  surface-container-high: '#222a3d'
+  surface-container-highest: '#2d3449'
+  on-surface: '#dae2fd'
+  on-surface-variant: '#bbcabf'
+  inverse-surface: '#dae2fd'
+  inverse-on-surface: '#283044'
+  outline: '#86948a'
+  outline-variant: '#3c4a42'
+  surface-tint: '#4edea3'
+  primary: '#4edea3'
+  on-primary: '#003824'
+  primary-container: '#10b981'
+  on-primary-container: '#00422b'
+  inverse-primary: '#006c49'
+  secondary: '#4cd7f6'
+  on-secondary: '#003640'
+  secondary-container: '#03b5d3'
+  on-secondary-container: '#00424e'
+  tertiary: '#c0c1ff'
+  on-tertiary: '#1000a9'
+  tertiary-container: '#9699ff'
+  on-tertiary-container: '#1d17b2'
+  error: '#ffb4ab'
+  on-error: '#690005'
+  error-container: '#93000a'
+  on-error-container: '#ffdad6'
+  primary-fixed: '#6ffbbe'
+  primary-fixed-dim: '#4edea3'
+  on-primary-fixed: '#002113'
+  on-primary-fixed-variant: '#005236'
+  secondary-fixed: '#acedff'
+  secondary-fixed-dim: '#4cd7f6'
+  on-secondary-fixed: '#001f26'
+  on-secondary-fixed-variant: '#004e5c'
+  tertiary-fixed: '#e1e0ff'
+  tertiary-fixed-dim: '#c0c1ff'
+  on-tertiary-fixed: '#07006c'
+  on-tertiary-fixed-variant: '#2f2ebe'
+  background: '#0b1326'
+  on-background: '#dae2fd'
+  surface-variant: '#2d3449'
+typography:
+  display:
+    fontFamily: Inter
+    fontSize: 56px
+    fontWeight: '800'
+    lineHeight: 64px
+    letterSpacing: -0.03em
+  display-mobile:
+    fontFamily: Inter
+    fontSize: 36px
+    fontWeight: '800'
+    lineHeight: 44px
+    letterSpacing: -0.02em
+  headline-lg:
+    fontFamily: Inter
+    fontSize: 40px
+    fontWeight: '700'
+    lineHeight: 48px
+    letterSpacing: -0.02em
+  headline-lg-mobile:
+    fontFamily: Inter
+    fontSize: 28px
+    fontWeight: '700'
+    lineHeight: 36px
+    letterSpacing: -0.02em
+  headline-md:
+    fontFamily: Inter
+    fontSize: 28px
+    fontWeight: '600'
+    lineHeight: 36px
+    letterSpacing: -0.015em
+  headline-sm:
+    fontFamily: Inter
+    fontSize: 20px
+    fontWeight: '600'
+    lineHeight: 28px
+    letterSpacing: -0.01em
+  body-lg:
+    fontFamily: Inter
+    fontSize: 18px
+    fontWeight: '400'
+    lineHeight: 28px
+    letterSpacing: -0.005em
+  body-md:
+    fontFamily: Inter
+    fontSize: 15px
+    fontWeight: '400'
+    lineHeight: 24px
+  body-sm:
+    fontFamily: Inter
+    fontSize: 13px
+    fontWeight: '400'
+    lineHeight: 20px
+  code-block:
+    fontFamily: JetBrains Mono
+    fontSize: 14px
+    fontWeight: '400'
+    lineHeight: 22px
+  code-inline:
+    fontFamily: JetBrains Mono
+    fontSize: 13px
+    fontWeight: '500'
+    lineHeight: 18px
+  label-md:
+    fontFamily: JetBrains Mono
+    fontSize: 12px
+    fontWeight: '500'
+    lineHeight: 16px
+    letterSpacing: 0.04em
+  label-sm:
+    fontFamily: JetBrains Mono
+    fontSize: 11px
+    fontWeight: '600'
+    lineHeight: 14px
+    letterSpacing: 0.06em
+rounded:
+  sm: 0.125rem
+  DEFAULT: 0.25rem
+  md: 0.375rem
+  lg: 0.5rem
+  xl: 0.75rem
+  full: 9999px
+spacing:
+  gutter: 1.5rem
+  gutter-mobile: 1rem
+  margin: 2rem
+  margin-mobile: 1rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2.5rem
+---
+
+## Brand & Style
+
+This design system defines the digital portfolio and personal engineering platform for a Full Stack Web Developer. It evokes precision, architectural discipline, and high-velocity craft. The emotional response is one of immediate technical credibility, modern sophistication, and immersive focus—reminiscent of high-performance developer environments, IDEs, and cutting-edge infrastructure dashboards.
+
+The visual direction merges **Clean Developer Minimalism** with **Refined Dark Glassmorphism**:
+- Deep slate and zinc environments provide high legibility for dense technical artifacts.
+- Targeted emerald and cyan luminescence acts as telemetry feedback and focal anchors, avoiding cosmetic neon bloat.
+- Muted indigo badges and micro-borders establish a multi-layered, structural architecture.
+- Tactile code blocks, clean monospaced data tags, and subtle interactive glow states emulate real-time development tooling.
+
+## Colors
+
+The palette is engineered primarily for dark mode to minimize eye strain and elevate syntax clarity, with a structured light mode counterpart for high-ambient-light accessibility.
+
+### Dark Mode (Default)
+- **Canvas Base:** `#090D16` (Deep terminal zinc-black)
+- **Surface Elevation 1 (Card/Container):** `#0F172A` with 70% opacity and subtle backdrop-blur
+- **Surface Elevation 2 (Interactive/Overlay):** `#1E293B`
+- **Primary Accent (`#10B981` Emerald):** Denotes active states, production readiness, interactive commit metrics, and primary calls to action.
+- **Secondary Accent (`#06B6D4` Cyan):** Highlights endpoints, API parameters, live demo previews, and interactive tooltips.
+- **Tertiary Accent (`#6366F1` Indigo):** Applied to runtime badges, language classifications, and experimental feature flags.
+- **Text & Contrast:** 
+  - Primary text: `#F8FAFC`
+  - Secondary/Muted: `#94A3B8`
+  - Borders/Dividers: `rgba(148, 163, 184, 0.12)`
+
+### Light Mode Fallback
+- **Canvas Base:** `#F8FAFC`
+- **Surface Layer:** `#FFFFFF`
+- **Surface Elevation:** `#F1F5F9`
+- **Primary Accent:** `#059669` (Darkened emerald for WCAG AA compliance)
+- **Secondary Accent:** `#0891B2`
+- **Tertiary Accent:** `#4F46E5`
+- **Text:** `#0F172A`
+
+## Typography
+
+The typography system relies on a dual-engine architecture:
+- **Inter** handles high-legibility interface copy, structural headings, narrative descriptions, and modal content. Its tight tracking and neutral geometry anchor the system in contemporary web product standards.
+- **JetBrains Mono** is deployed for technical telemetry, tech stack categories, micro-metadata, commit tags, inline syntax, and terminal views.
+
+All display and large headline levels adopt negative tracking to maintain density and prevent visual fragmentation across wide displays. Code blocks must maintain strict horizontal alignment with tab stops set to 2 spaces.
+
+## Layout & Spacing
+
+The portfolio is structured on a 12-column fluid grid on desktop (`>1024px`) with a maximum container limit of `1280px` to maintain optimal viewing angles for project case studies and architectural flowcharts.
+
+- **Desktop (1024px+):** 12 columns, `1.5rem` (24px) gutters, and `2rem` (32px) page margin padding.
+- **Tablet (640px - 1023px):** 8 columns, `1.25rem` (20px) gutters, `1.5rem` (24px) margins.
+- **Mobile (<640px):** 4 columns, `1rem` (16px) gutters, and `1rem` (16px) margins.
+
+Internal component gaps follow the `space-*` scale. Asymmetrical offsets are discouraged; tech stack grids, project showcases, and credential sections must snap precisely to standard vertical increments (`space-sm` for dense list elements, `space-xl` for sectional breaks).
+
+## Elevation & Depth
+
+Visual hierarchy leverages a hybrid of **Tonal Layering** and **Subtle Glassmorphism** accented by low-intensity specular boundary lines:
+
+1. **Base Layer:** `#090D16` pure matte canvas.
+2. **Layer 1 (Cards, Code Sandboxes):** Background `rgba(15, 23, 42, 0.75)` with `12px` backdrop blur, bound by an ultra-thin perimeter stroke: `1px solid rgba(148, 163, 184, 0.08)`.
+3. **Layer 2 (Hover & Focus States):** Card elevation is conveyed not through heavy drop shadows, but through localized luminous borders: `1px solid rgba(16, 185, 129, 0.35)` accompanied by a gentle ambient drop glow: `0 8px 30px -8px rgba(16, 185, 129, 0.12)`.
+4. **Layer 3 (Modals & Overlays):** `#0F172A` with `95%` opacity, bounded by `1px solid rgba(6, 182, 212, 0.25)`, elevated above a `backdrop-filter: blur(8px)` dimming backdrop (`rgba(9, 13, 22, 0.8)`).
+
+## Shapes
+
+The design system implements a soft, engineered shape language (`roundedness: 1`):
+- Standard interactive elements, form controls, and stack chips utilize `0.25rem` (4px) radii.
+- Project cards, code sandboxes, and structural containers utilize `rounded-lg` (`0.5rem` / 8px).
+- Modals, large feature callouts, and floating navigations scale up to `rounded-xl` (`0.75rem` / 12px).
+- Full pills are strictly reserved for live status indicators (e.g., "Available for contract") and notification badges.
+
+## Components
+
+### Buttons
+- **Primary:** High-emphasis solid emerald (`#10B981`) background, deep slate text (`#090D16`), weight `600`, font `Inter`. On hover: transition to `#34D399` with `box-shadow: 0 0 16px rgba(16, 185, 129, 0.35)`.
+- **Secondary (Outline):** Transparent fill, `1px solid rgba(148, 163, 184, 0.2)`, text `#F8FAFC`. On hover: border switches to cyan (`#06B6D4`), surface tint `rgba(6, 182, 212, 0.05)`.
+- **Icon / Terminal Button:** Monospaced label with trailing glyph, subtle background `#1E293B`, border `rgba(148, 163, 184, 0.1)`.
+
+### Chips & Filters
+- **Architecture/Filter Chips:** JetBrains Mono (`label-md`). Normal: `#1E293B` background, `#94A3B8` text, `0.25rem` radius. Active: Border `1px solid #10B981`, text `#10B981`, background `rgba(16, 185, 129, 0.08)`.
+- **Badge / Category Chips:** Soft indigo (`rgba(99, 102, 241, 0.15)`) background with `#818CF8` text for architectural roles (e.g., `Backend`, `GraphQL`, `DevOps`).
+
+### Cards & Project Showcases
+- **Project Card:** Glass surface `rgba(15, 23, 42, 0.7)` with `12px` backdrop blur, `0.5rem` roundedness, `1px` border `rgba(148, 163, 184, 0.1)`. 
+- **Hover Interaction:** Smooth transition (`200ms ease-out`): border shifts to `rgba(16, 185, 129, 0.4)`, slight 2px vertical lift, and subtle emerald glow. Tech stack icons render in monochrome `#94A3B8`, brightening to full accent color on card hover.
+
+### Tech Stack Icons & Grid
+- Tech items are encapsulated in individual square cells with a faint inner grid line (`border: 1px solid rgba(148, 163, 184, 0.08)`), pairing an SVG icon with a JetBrains Mono label underneath.
+
+### Interactive Project Modals
+- Fixed viewport center, max-width `840px`. Glassmorphic backdrop (`rgba(9, 13, 22, 0.85)` + `blur(8px)`).
+- Top bar styled like an IDE title bar: file path label in `code-inline`, close toggle, and status indicators.
+- Divided into multi-pane layout: live preview viewport, technical architecture breakdown, and performance/metric tags.
+
+### Inputs & Terminal Fields
+- Dark input fields (`#0B1120`), border `1px solid rgba(148, 163, 184, 0.15)`, text `#F8FAFC`, placeholder `#64748B`. Focused state: border `#06B6D4`, glow `0 0 0 1px #06B6D4`.

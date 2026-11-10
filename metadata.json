@@ -1,0 +1,8 @@
+{
+  "name": "Obsidian Terminal - Engineering Portfolio & Systems Platform",
+  "description": "Production engineering platform and portfolio for a Full Stack Developer & Systems Architect, featuring interactive IDE modals, live telemetry, and system visualizers.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
